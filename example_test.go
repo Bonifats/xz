@@ -11,7 +11,7 @@ import (
 	"log"
 	"os"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz"
+	"github.com/Bonifats/xz"
 )
 
 func ExampleReader() {

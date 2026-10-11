@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz"
+	"github.com/Bonifats/xz"
 )
 
 func TestPanic(t *testing.T) {

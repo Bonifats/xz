@@ -8,8 +8,8 @@ import (
 	"io"
 	"os"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz"
-	"ximilab.gitlab.yandexcloud.net/go/xz/xio"
+	"github.com/Bonifats/xz"
+	"github.com/Bonifats/xz/xio"
 )
 
 func ExampleWriteCloserStack() {

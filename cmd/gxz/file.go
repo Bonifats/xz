@@ -15,9 +15,9 @@ import (
 	"strings"
 	"syscall"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz"
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/xlog"
-	"ximilab.gitlab.yandexcloud.net/go/xz/lzma"
+	"github.com/Bonifats/xz"
+	"github.com/Bonifats/xz/internal/xlog"
+	"github.com/Bonifats/xz/lzma"
 )
 
 // signalHandler establishes the signal handler for SIGTERM(1) and

@@ -10,7 +10,7 @@ import (
 	"hash"
 	"io"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/lzma"
+	"github.com/Bonifats/xz/lzma"
 )
 
 // WriterConfig describe the parameters for an xz writer.

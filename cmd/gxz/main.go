@@ -7,7 +7,7 @@
 // Use gxz -h to get information about supported flags.
 package main
 
-//go:generate xb cat -o licenses.go xzLicense:ximilab.gitlab.yandexcloud.net/go/xz/LICENSE goLicense:~/go/LICENSE
+//go:generate xb cat -o licenses.go xzLicense:github.com/Bonifats/xz/LICENSE goLicense:~/go/LICENSE
 //go:generate xb version-file -o version.go
 
 import (
@@ -19,9 +19,9 @@ import (
 	"strings"
 	"text/template"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/gflag"
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/term"
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/xlog"
+	"github.com/Bonifats/xz/internal/gflag"
+	"github.com/Bonifats/xz/internal/term"
+	"github.com/Bonifats/xz/internal/xlog"
 )
 
 const (
@@ -51,7 +51,7 @@ in place).
 
 With no file, or when FILE is -, read standard input.
 
-Report bugs using <https://ximilab.gitlab.yandexcloud.net/go/xz/issues>.
+Report bugs using <https://github.com/Bonifats/xz/issues>.
 `
 )
 
@@ -61,7 +61,7 @@ func usage(w io.Writer) {
 
 func licenses(w io.Writer) {
 	out := `
-ximilab.gitlab.yandexcloud.net/go/xz -- xz for Go
+github.com/Bonifats/xz -- xz for Go
 ====================================
 
 {{.xz}}

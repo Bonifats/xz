@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/lzma"
+	"github.com/Bonifats/xz/lzma"
 )
 
 // LZMA filter constants.

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/hash"
+	"github.com/Bonifats/xz/internal/hash"
 )
 
 /* For compression we need to find byte sequences that match the byte

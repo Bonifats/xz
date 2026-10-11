@@ -11,7 +11,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/randtxt"
+	"github.com/Bonifats/xz/internal/randtxt"
 )
 
 var testString = `LZMA decoder test example

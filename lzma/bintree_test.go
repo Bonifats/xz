@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/randtxt"
+	"github.com/Bonifats/xz/internal/randtxt"
 )
 
 func TestBinTree_Find(t *testing.T) {

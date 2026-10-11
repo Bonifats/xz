@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/xlog"
+	"github.com/Bonifats/xz/internal/xlog"
 )
 
 // Reader2Config stores the parameters for the LZMA2 reader.

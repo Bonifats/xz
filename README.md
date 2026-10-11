@@ -25,7 +25,7 @@ import (
     "log"
     "os"
 
-    "ximilab.gitlab.yandexcloud.net/go/xz"
+    "github.com/Bonifats/xz"
 )
 
 func main() {
@@ -55,7 +55,7 @@ func main() {
 
 ## Documentation
 
-You can find the full documentation at [pkg.go.dev](https://pkg.go.dev/ximilab.gitlab.yandexcloud.net/go/xz).
+You can find the full documentation at [pkg.go.dev](https://pkg.go.dev/github.com/Bonifats/xz).
 
 ## Using the gxz compression tool
 
@@ -64,7 +64,7 @@ decompression.
 
 Use following command for installation:
 
-    $ go get ximilab.gitlab.yandexcloud.net/go/xz/cmd/gxz
+    $ go get github.com/Bonifats/xz/cmd/gxz
 
 To test it call the following command.
 
@@ -85,4 +85,4 @@ This implementation doesn't share any files with the original xz implementation
 and no patches or pull requests are accepted without a review.
 
 All security advisories for this project are published under
-[ximilab.gitlab.yandexcloud.net/go/xz/security/advisories](https://ximilab.gitlab.yandexcloud.net/go/xz/security/advisories?state=published).
+[github.com/Bonifats/xz/security/advisories](https://github.com/Bonifats/xz/security/advisories?state=published).

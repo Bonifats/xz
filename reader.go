@@ -14,8 +14,8 @@ import (
 	"hash"
 	"io"
 
-	"ximilab.gitlab.yandexcloud.net/go/xz/internal/xlog"
-	"ximilab.gitlab.yandexcloud.net/go/xz/lzma"
+	"github.com/Bonifats/xz/internal/xlog"
+	"github.com/Bonifats/xz/lzma"
 )
 
 // ReaderConfig defines the parameters for the xz reader. The

@@ -1,3 +1,3 @@
-module ximilab.gitlab.yandexcloud.net/go/xz
+module github.com/Bonifats/xz
 
 go 1.20
